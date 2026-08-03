@@ -17,8 +17,9 @@ To design and implement a cloud-enabled IoT thermal monitoring system capable of
 - 🕒 **Real-Time Clock Integration** – Displays accurate date and time using the RTC module.
 - 📺 **Live LCD Display** – Shows temperature, set-point, time, and system status on a 16×2 LCD.
 - ⚡ **Embedded ARM7-Based Design** – Built around the LPC2148 microcontroller for reliable real-time operation.
+  
 
-- ## 🛠️ Hardware Components
+ ### 🛠️ Hardware Components
 
 | **Component** | **Model / Module** | **Function** |
 |---------------|--------------------|--------------|
@@ -42,5 +43,8 @@ To design and implement a cloud-enabled IoT thermal monitoring system capable of
 | 🌐 **Git** | Latest | Version control and source code management. |
 | 📂 **GitHub** | Web Platform | Hosts the project repository and documentation. |
 | 📝 **Embedded C** | — | Programming language used for firmware development. |
+
 ## **🏗️ System Architecture**
+
+
 
