@@ -45,7 +45,7 @@ To design and implement a cloud-enabled IoT thermal monitoring system capable of
 | 📝 **Embedded C** | — | Programming language used for firmware development. |
 
 ## **🏗️ System Architecture**
-https://github.com/vamsikrishna-29/Cloud_Enabled_IoT_Thermal_Alert_System/blob/0623ae5022d89e75c99516583fbe8b98aa73e5f0/system%20architecture.png
+![system architecture](https://github.com/vamsikrishna-29/Cloud_Enabled_IoT_Thermal_Alert_System/blob/0623ae5022d89e75c99516583fbe8b98aa73e5f0/system%20architecture.png)
 
 
 
