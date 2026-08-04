@@ -45,7 +45,7 @@ To design and implement a cloud-enabled IoT thermal monitoring system capable of
 | 📝 **Embedded C** | — | Programming language used for firmware development. |
 
 ## **🏗️ System Architecture**
-![system architecture](https://github.com/vamsikrishna-29/Cloud_Enabled_IoT_Thermal_Alert_System/blob/0623ae5022d89e75c99516583fbe8b98aa73e5f0/system%20architecture.png)
+![system architecture](https://github.com/vamsikrishna-29/Cloud_Enabled_IoT_Thermal_Alert_System/blob/main/system_architecture.png)
 
 The system is centered around the **LPC2148 ARM7 Microcontroller**, which acquires temperature data from the **LM35 sensor** through its built-in ADC. The processed temperature is displayed on the **16×2 LCD (8-bit mode)** and compared with the configured set-point. The **ESP-01 Wi-Fi module** enables communication with the **ThingSpeak cloud** for real-time temperature logging and remote set-point updates. Users can also configure the set-point locally using the **4×4 matrix keypad**, while the **DS1307 RTC** provides accurate date and time information. The configured set-point is stored in the **I²C EEPROM** to retain data after power loss. Whenever the measured temperature exceeds the configured threshold, the **buzzer** and **LED** are activated to provide audible and visual alerts.
 
