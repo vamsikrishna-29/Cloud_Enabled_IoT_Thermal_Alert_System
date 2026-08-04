@@ -154,13 +154,13 @@ Users can remotely update the temperature set-point through the ThingSpeak chann
     </td>
     <td align="center">
       <img src="image2.jpeg" width="400"><br>
-      <b>Temperature Graph</b>
+      <b>Alert or Normal Graph</b>
     </td>
   </tr>
   <tr>
     <td align="center">
       <img src="image3.jpeg" width="400"><br>
-      <b>Field Data Log</b>
+      <b>Temperature Data Graph</b>
     </td>
     <td align="center">
       <img src="image4.jpeg" width="400"><br>
