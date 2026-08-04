@@ -125,7 +125,46 @@ Before running the project, ensure the following hardware and software are avail
     </td>
     <td align="center">
       <img src="image4.png" width="350"><br>
-      <b>send Set Point to cloud</b>
+      <b>Send Set Point to cloud</b>
+    </td>
+  </tr>
+</table>
+
+## 📊 Output
+
+The implemented system continuously monitors the ambient temperature using the LM35 sensor and displays the real-time temperature along with the current time on the LCD. The measured temperature is periodically uploaded to the ThingSpeak cloud platform through the ESP-01 Wi-Fi module for remote monitoring and data logging.
+
+Users can remotely update the temperature set-point through the ThingSpeak channel. The LPC2148 controller retrieves the updated set-point, stores it in EEPROM, and immediately uses it for thermal alert generation. When the measured temperature exceeds the configured set-point, the system activates the buzzer to notify the user.
+
+### Output Highlights
+- Real-time temperature displayed on the LCD.
+- Temperature data uploaded to the ThingSpeak cloud.
+- Live graphical visualization of temperature on ThingSpeak.
+- Remote set-point update through the cloud.
+- Automatic EEPROM storage of the updated set-point.
+- Buzzer activation when the temperature exceeds the set-point.
+
+  ## 📊 Output
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="output1.png" width="350"><br>
+      <b>ThingSpeak Channel Overview</b>
+    </td>
+    <td align="center">
+      <img src="output2.png" width="350"><br>
+      <b>Temperature Graph</b>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="output3.png" width="350"><br>
+      <b>Field Data Log</b>
+    </td>
+    <td align="center">
+      <img src="output4.png" width="350"><br>
+      <b>Remote Set-Point Update</b>
     </td>
   </tr>
 </table>
