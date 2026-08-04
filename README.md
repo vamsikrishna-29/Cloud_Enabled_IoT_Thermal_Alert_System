@@ -65,6 +65,17 @@ The system is centered around the **LPC2148 ARM7 Microcontroller**, which acquir
 | 🚨 **Buzzer & LED Alert System** | The LPC2148 continuously compares the measured temperature with the configured set-point. Whenever the temperature exceeds the threshold, both the buzzer and LED are activated simultaneously to provide immediate audible and visual alerts. The alert remains active until the temperature falls below the configured limit. |
 | 🔄 **Overall System Operation** | The system continuously performs temperature sensing, ADC conversion, real-time display, cloud synchronization, set-point management, EEPROM storage, and alert generation in a cyclic manner. This integrated operation ensures reliable real-time thermal monitoring, cloud-based data logging, and remote system management. |
 
+## 🌍 Applications
+
+- 🏭 Industrial temperature monitoring
+- 🏠 Smart home temperature monitoring
+- 🧪 Laboratories and research facilities
+- 🏥 Hospital equipment temperature monitoring
+- 🌾 Agricultural greenhouse monitoring
+- 🗄️ Server rooms and data centers
+- ❄️ Cold storage and warehouse monitoring
+- ☁️ Remote IoT-based environmental monitoring
+
 ## 🚀 Getting Started
 
 ### Prerequisites
