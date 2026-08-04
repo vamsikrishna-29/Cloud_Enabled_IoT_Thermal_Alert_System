@@ -149,7 +149,7 @@ Users can remotely update the temperature set-point through the ThingSpeak chann
 <table>
   <tr>
     <td align="center">
-      <img src="image.jpeg" width="350"><br>
+      <img src="image1.jpeg" width="350"><br>
       <b>ThingSpeak Channel Overview</b>
     </td>
     <td align="center">
