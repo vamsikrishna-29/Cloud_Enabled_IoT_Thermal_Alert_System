@@ -105,6 +105,31 @@ Before running the project, ensure the following hardware and software are avail
 
 8. Monitor live temperature data and update the set-point remotely through ThingSpeak.
 
+   ## 📸 Project Gallery
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="images/image1.jpg" width="350"><br>
+      <b>System Hardware Setup</b>
+    </td>
+    <td align="center">
+      <img src="images/image2.jpg" width="350"><br>
+      <b>LCD Temperature Display</b>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="images/image3.jpg" width="350"><br>
+      <b>ThingSpeak Dashboard</b>
+    </td>
+    <td align="center">
+      <img src="images/image4.jpg" width="350"><br>
+      <b>Keypad Set Point Entry</b>
+    </td>
+  </tr>
+</table>
+
    
 
 
