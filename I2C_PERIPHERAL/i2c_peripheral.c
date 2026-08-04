@@ -47,8 +47,7 @@ void i2c_start(void)
 
   while(((I2CONSET>>SI_BIT)&1)==0); 
 
-
-  // clear start condition 
+ // clear start condition 
 
   I2CONCLR=1<<STA_BIT; 
 
