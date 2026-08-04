@@ -121,11 +121,11 @@ Before running the project, ensure the following hardware and software are avail
   <tr>
     <td align="center">
       <img src="imag3.png" width="350"><br>
-      <b>ThingSpeak Dashboard</b>
+      <b>Alert and LED glow</b>
     </td>
     <td align="center">
       <img src="image4.png" width="350"><br>
-      <b>Keypad Set Point Entry</b>
+      <b>send Set Point to cloud</b>
     </td>
   </tr>
 </table>
