@@ -110,21 +110,21 @@ Before running the project, ensure the following hardware and software are avail
 <table>
   <tr>
     <td align="center">
-      <img src="image1.jpg.png" width="350"><br>
+      <img src="image1.jpg.png" width="400"><br>
       <b>System Hardware Setup</b>
     </td>
     <td align="center">
-      <img src="image1.jpeg" width="350"><br>
+      <img src="image5.jpeg" width="400"><br>
       <b>LCD Temperature Display</b>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="imag3.png" width="350"><br>
+      <img src="imag3.png" width="400"><br>
       <b>Alert and LED glow</b>
     </td>
     <td align="center">
-      <img src="image4.png" width="350"><br>
+      <img src="image4.png" width="400"><br>
       <b>Send Set Point to cloud</b>
     </td>
   </tr>
