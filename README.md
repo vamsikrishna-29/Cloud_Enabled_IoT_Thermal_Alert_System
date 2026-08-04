@@ -110,21 +110,21 @@ Before running the project, ensure the following hardware and software are avail
 <table>
   <tr>
     <td align="center">
-      <img src="images/image1.jpg.png" width="350"><br>
+      <img src="image1.jpg.png" width="350"><br>
       <b>System Hardware Setup</b>
     </td>
     <td align="center">
-      <img src="images/image1.jpeg" width="350"><br>
+      <img src="image1.jpeg" width="350"><br>
       <b>LCD Temperature Display</b>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="images/image3.png" width="350"><br>
+      <img src="imag3.png" width="350"><br>
       <b>ThingSpeak Dashboard</b>
     </td>
     <td align="center">
-      <img src="images/image4.png" width="350"><br>
+      <img src="image4.png" width="350"><br>
       <b>Keypad Set Point Entry</b>
     </td>
   </tr>
