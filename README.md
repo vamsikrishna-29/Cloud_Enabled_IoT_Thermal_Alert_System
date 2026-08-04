@@ -149,21 +149,21 @@ Users can remotely update the temperature set-point through the ThingSpeak chann
 <table>
   <tr>
     <td align="center">
-      <img src="output1.png" width="350"><br>
+      <img src="image.jpeg" width="350"><br>
       <b>ThingSpeak Channel Overview</b>
     </td>
     <td align="center">
-      <img src="output2.png" width="350"><br>
+      <img src="image2.jpeg" width="350"><br>
       <b>Temperature Graph</b>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="output3.png" width="350"><br>
+      <img src="image3.jpeg" width="350"><br>
       <b>Field Data Log</b>
     </td>
     <td align="center">
-      <img src="output4.png" width="350"><br>
+      <img src="image4.jpeg" width="350"><br>
       <b>Remote Set-Point Update</b>
     </td>
   </tr>
