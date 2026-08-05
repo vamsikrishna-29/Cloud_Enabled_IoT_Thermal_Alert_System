@@ -14,15 +14,30 @@ and then enables the RTC.
 */
 void Init_RTC(void) 
 {
+	// Disable and reset the RTC
+        CCR = RTC_RESET;
+
+#ifdef _LPC2148
+  // Enable the RTC & select the clock source
+        CCR = RTC_ENABLE | RTC_CLKSRC;
+#else
+  // Set prescaler integer and fractional parts
+        PREINT = PREINT_VAL;
+        PREFRAC= PREFRAC_VAL;
+
+  // Enable the RTC
+        CCR = RTC_ENABLE;
+
+#endif
   // Disable and reset the RTC and resets its counter
-	CCR = 1<<1;
+	//CCR = 1<<1;
   // load the prescaler integer value
   // fine-tunes the RTC clock for accurate 1-second timimg
-	PREINT = 456;
-	PREFRAC= 25024;
+	//PREINT = 456;
+	//PREFRAC= 25024;
   
   // Enable the RTC to start counting time
-	CCR = 1<<0;  
+	//CCR = 1<<0;  
 }
 
 /*
