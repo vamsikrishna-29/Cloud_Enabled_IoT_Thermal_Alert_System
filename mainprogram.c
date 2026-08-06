@@ -57,7 +57,7 @@ int main(void)
             delay_ms(2000);
         }
 
-        // Upload Temperature to ThingSpeak (Every 1 Minute) 
+        // Upload Temperature to ThingSpeak (Every 3 Minute) 
         Upload_Temperature_To_Cloud();
 
         // Upload Set Point from Cloud (Every 2 Minutes) 
